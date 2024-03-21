@@ -1,0 +1,49 @@
+fieldset {
+    padding: 2%;
+}
+
+header {
+    background:#eee;
+}
+
+main {
+    background: #eee;
+    border-radius: 5%;
+}
+
+
+label, input, select {
+    display: block; box-sizing: border-box;
+}
+
+label {
+    padding: 5px;
+}
+
+input, select {
+    width: 100%; border: 1px outset; padding: 10px;
+}
+
+input:focus, textarea {
+    background: lightyellow; border: 1px solid green; outline: none;
+}
+
+
+.label-50
+{
+    width: 50%; float: left;
+}
+
+.center {
+    text-align: center;
+}
+ 
+button {
+    background-color: rgb(163, 168, 168);
+    border-radius: 3px;
+    border-top: 2px;
+}
+
+textarea {
+    height: 10px;
+}
